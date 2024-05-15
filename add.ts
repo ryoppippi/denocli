@@ -23,5 +23,6 @@ if (import.meta.main) {
   U.assert(an, U.isNumber);
   U.assert(bn, U.isNumber);
 
-  console.log(`The sum of ${an} and ${bn} is ${add(an, bn)}`);
+  const ans = add(an, bn);
+  console.log(ans);
 }
