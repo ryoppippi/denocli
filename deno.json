@@ -1,11 +1,11 @@
 {
   "name": "@ryoppippi/cli-example",
   "exports": {
-    "./cli": "./main.ts"
+    ".": "./main.ts"
   },
   "tasks": {
     "dev": "deno run --watch main.ts",
     "run": "deno run main.ts"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
