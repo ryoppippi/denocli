@@ -2,8 +2,8 @@
   "name": "@ryoppippi/cli-example",
   "exports": {
     ".": "./greeting.ts",
-    "add": "./add.ts",
-    "sub": "./sub.ts"
+    "./add": "./add.ts",
+    "./sub": "./sub.ts"
   },
   "tasks": {
     "dev": "deno run --watch main.ts",
