@@ -1,9 +1,15 @@
 import * as U from "jsr:@core/unknownutil@3.18.0";
+
+/**
+ * Adds two numbers
+ * @param a The first number
+ * @param b The second number
+ * @returns The sum of the two numbers
+ */
 export function add(a: number, b: number): number {
   return a + b;
 }
 
-// Learn more at https://deno.land/manual/examples/module_metadata#concepts
 if (import.meta.main) {
   const a = Deno.args.at(0);
   const b = Deno.args.at(1);
