@@ -1,5 +1,5 @@
 {
-  "name": "@ryoppippi/cli-example",
+  "name": "@cl1/example",
   "exports": {
     ".": "./greeting.ts",
     "./add": "./add.ts",
